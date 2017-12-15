@@ -25,6 +25,7 @@ h2 {
 
 h3 {
     /*font-weight: bold;*/
+    text-transform: uppercase;
 }
 
 b,
@@ -34,6 +35,13 @@ strong {
 
 samp {
     /*	display: none;*/
+}
+
+blockquote {
+    font-size: 30px;
+    border-left: none;
+    text-indent: 0px;
+    padding: 10px 0px!important;
 }
 
 .top5 {
