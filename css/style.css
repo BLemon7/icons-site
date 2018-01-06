@@ -238,7 +238,8 @@ span {
 #projectContact {
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 20px
+    padding-bottom: 20px;
+    -webkit-backface-visibility: hidden;
 }
 
 #projectSocialIcons {
@@ -335,32 +336,7 @@ a.twitter {
 }
 
 
-/* CV page */
 
-#cv-left {
-    color: #FFF;
-}
-
-#cv-left .opacity-layer {
-    padding-top: 100px;
-    padding-left: 100px;
-}
-
-#cv-right {
-    padding-top: 20px;
-}
-
-.cv-text {
-    display: block;
-    max-width: 100%;
-    text-align: left;
-    margin: 0;
-    font-size: 0.8em;
-}
-
-.cv-bullets {
-    color: black;
-}
 
 @media screen and (min-width: 992px) {
     #cv-left,
